@@ -2,8 +2,14 @@
 <resources>
 
     <string name="app_name">BreakMeOff</string>
-    <string name="section_title_transitions">Transitions</string>
+    <string name="section_title_transitions_delayed">Transitions - Delayed</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="section_title_transitions_xml">Transitions XML</string>
+    <string name="transition_xml_long_text">I am a really, really long piece of text that may or not
+        be there!
+    </string>
+    <string name="transition_xml_button">Wow Such Button</string>
+    <string name="section_title_immersive">Immersive Mode</string>
 
 </resources>

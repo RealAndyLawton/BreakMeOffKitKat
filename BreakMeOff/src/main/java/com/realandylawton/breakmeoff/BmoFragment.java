@@ -2,6 +2,7 @@ package com.realandylawton.breakmeoff;
 
 import android.app.Activity;
 import android.app.Fragment;
+import butterknife.ButterKnife;
 
 /**
  * Created by realandylawton on 12/9/13.

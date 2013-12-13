@@ -34,8 +34,23 @@ public class MainActivity extends Activity
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getFragmentManager();
+
+        BmoFragment fragment = null;
+        switch (position) {
+            case 0 :
+                fragment = TransitionsXmlFragment.newInstance();
+                break;
+            case 1:
+                fragment = TransitionsDelayedFragment.newInstance();
+                break;
+            case 2:
+                fragment = ImmersiveFragment.newInstance();
+                break;
+        }
+
+
         fragmentManager.beginTransaction()
-                .replace(R.id.container, TransitionsFragment.newInstance())
+                .replace(R.id.container, fragment)
                 .commit();
     }
 
